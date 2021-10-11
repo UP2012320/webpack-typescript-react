@@ -10,7 +10,7 @@ export default {
         minimize: true,
         minimizer: [new TerserJSPlugin({})],
     },
-    plugins: [plugins.cleanWebpackPlugin, plugins.miniCssExtractPlugin],
+    plugins: [plugins.cleanWebpackPlugin],
     performance: {
         hints: false,
         maxEntrypointSize: 512000,
