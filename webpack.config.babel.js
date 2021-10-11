@@ -9,4 +9,4 @@ import prodConfig from './webpack/prod';
 import {isProd} from './webpack/utils/env';
 
 export default () =>
-    isProd ? merge(baseConfig, prodConfig) : merge(baseConfig, devConfig);
+  isProd ? merge(baseConfig, prodConfig) : merge(baseConfig, devConfig);
